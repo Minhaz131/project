@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <title>Registration</title>
+</head>
+<body>
+    <div class="angry">
+        <h1>Registration Form</h1>
+        <form action="">
+            <label for="fname">First Name:</label>
+            <input type="text" id="fname" name="fname" placeholder="Enter your first name" required autofocus>
+            <label for="lname">Last name:</label>
+            <input type="text" id="lname" name="lname" placeholder="Enter your last name" required autofocus>
+            <label for="username">Username:</label>
+            <input type="username" id="username" name="username" placeholder="Enter your username" required autofocus>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email address" required autofocus>
+            <label for="Password">Password:</label>
+            <input type="password" id="Password" name="Password" placeholder="Enter your password" required autofocus>
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date" required>
+            <label for="time">Time:</label>
+            <input type="time" id="time" name="time" required>
+            <label for="color">Colour:</label>
+            <input type="color" id="color" name="color" required>
+            <label for="hidden">Hidden:</label>
+            <input type="hidden" id="hidden" name="hidden" value="Chittagong" >
+            <label for="Number">Number:</label>
+            <input type="number" id="Number" name="Number" min="20" max="80" step="4" required>
+            <label for="range">Range:</label>
+            <input type="range" id="range" name="range" min="3000" max="9000" required>
+            <label for="file">File:</label>
+            <input type="file" id="file" name="file" multiple required>
+            <label for="url">URL:</label>
+            <input type="url" id="url" name="url" placeholder="Enter your website url" required>
+            <div class="gender">
+                <label>Gender:</label>
+                <input type="radio" name="gender">Male
+                <input type="radio" name="gender">Female
+                <input type="radio" name="gender">Other
+            </div>
+            <div class="gender">
+                <label for="checkbox">Select favourite place</label>
+                <input type="checkbox" name="checkbox">Chittagong
+                <input type="checkbox" name="checkbox">Dhaka
+                <input type="checkbox" name="checkbox">kulna
+                <input type="checkbox" name="checkbox">Sylhet
+            </div>
+            <textarea name="textarea" cols="30" rows="10" placeholder="Write Your Comment">Hello...</textarea>
+            <label for="car">Car</label>
+            <select name="Car" id="Car" multiple size="2">
+                <optgroup label="Car">
+                    <option value="BMW">BMW</option>
+                    <option value="Audi" selected>Audi</option>
+                    <option value="Farrari">Farrari</option>
+                    <option value="Tesla">Tesla</option>
+                </optgroup>
+                <optgroup label="Sports">
+                    <option value="Cricket">Cricket</option>
+                    <option value="Footbal">Footbal</option>
+                    <option value="Hockey">Hockey</option>
+                    <option value="Bedminton">Bedminton</option>
+                </optgroup>
+            </select>
+            <br><br>
+            <div>
+                <label>Search</label>
+                <input type="text" list="connect">
+                <datalist id="connect">
+                    <option value="Car">
+                    <option value="Apple">
+                    <option value="Orange">
+                    <option value="BMW">
+                    <option value="Tasla">
+                    <option value="Mango">
+                    <option value="Cricket">
+                </datalist>
+                <input type="submit" value="Search">
+                </div>
+          <div class="reg"> 
+           <input type="reset" value="clear">
+            <input type="submit" value="Registration" >
+            </div>
+        </form>
+    </div>
+</body>
+</html>

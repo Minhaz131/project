@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.angry{
+    width: 50%;
+    text-align: center;
+    background-color: rgb(88, 194, 145);
+    margin: 4em auto;
+}
+.angry h1{
+    font-size: 50px;
+    padding: 30px 0;
+}
+input, label{
+    display: block;
+    margin: 10px auto;
+}
+label{
+    text-transform: uppercase;
+    font-size: 20px;
+}
+input{
+    padding: 15px 8em;
+    margin: 10px auto;
+    border-radius: 30px;
+    border: none;
+}
+input[type="submit"]{
+    margin: 25px auto;
+    padding: 15px 60px;
+    border-radius: 30px;
+    border: none;
+    font-size: 20px;
+}
+.fp{
+    margin-top: 24px;
+}
+
+.fp a{
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(33, 141, 29);
+}
+button{
+    border-radius: 30px;
+    border: none;
+    padding: 15px;
+    margin: 30px;
+}
+button p a{
+    text-decoration: none;
+    color: rgb(156, 185, 86);
+    background-color: #fff;
+    font-size: 17px;
+}
+p{
+    margin-top: 10px;
+    font-size: 18px;
+}
+.gender input{
+    display: inline-block;
+}
+.reg{
+    padding: 15px;
+    margin: 15px;
+}
